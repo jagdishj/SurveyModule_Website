@@ -1,0 +1,3 @@
+--update models
+
+PS D:\R&D\psychometric\Dev\API\SurveyModuleAPI\SurveyModuleAPI> dotnet ef dbcontext scaffold Name=MyConn Pomelo.EntityFrameworkCore.MySql --output-dir Models --context-dir Data --namespace SurveyModule.Models --context-namespace SurveyModule.Data --context SurveyModuleContext -f --no-onconfiguring
